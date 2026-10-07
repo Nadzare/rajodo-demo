@@ -1,0 +1,329 @@
+PRODUCT REQUIREMENTS DOCUMENT
+Landing Page — Rajodo Outdoor
+Website redesign brief untuk AI Agent / UI-UX Designer / Frontend Engineer
+Rajodo Outdoor — Sewa Alat Camping & Hiking PurwokertoThe Adventure Starts Here
+Dokumen ini adalah source of truth untuk redesign.Informasi bisnis, kontak, layanan, dan karakter brand berasal dari aset Rajodo yang diberikan. Website lama hanya digunakan sebagai referensi informasi/business flow, bukan sebagai referensi visual. UI lama boleh dibongkar total.
+
+
+1. Ringkasan Produk
+Rajodo Outdoor adalah usaha penyewaan perlengkapan outdoor yang beroperasi di area Purwokerto/Banyumas, Jawa Tengah. Bisnis melayani kebutuhan camping, hiking, pendakian, dan aktivitas outdoor melalui penyewaan peralatan maupun paket perlengkapan.
+Landing page baru harus mengubah website existing yang terasa acak menjadi pengalaman digital yang jelas, meyakinkan, mudah dipakai, dan memiliki karakter outdoor yang kuat. Fokus utama bukan membuat katalog e-commerce penuh, melainkan memperkenalkan Rajodo, membantu pengunjung menemukan kebutuhan rental, lalu mengarahkan mereka ke WhatsApp/booking.
+2. Tujuan Bisnis
+Meningkatkan kepercayaan calon penyewa terhadap Rajodo Outdoor.
+Memperjelas apa yang disewakan dan untuk kebutuhan outdoor apa.
+Mempermudah pengunjung mengecek produk/paket dan melanjutkan konsultasi atau booking.
+Menonjolkan dua basecamp/cabang: BC 1 Pangebatan dan BC 2 Sunyalangu.
+Mengubah traffic Instagram menjadi inquiry/booking.
+Membangun brand presence yang lebih profesional tanpa menghilangkan karakter lokal dan komunitas outdoor.
+3. Tujuan Pengguna
+Calon pendaki yang membutuhkan perlengkapan sebelum keberangkatan.
+Pemula yang belum memiliki perlengkapan camping sendiri.
+Kelompok/komunitas yang membutuhkan paket camping.
+Pelanggan yang ingin melihat jenis barang, kisaran harga, dan ketersediaan.
+Pelanggan lama yang ingin langsung menghubungi admin/basecamp.
+Pengunjung Instagram yang ingin mengetahui lokasi dan cara booking.
+4. User Journey Utama
+Pengunjung masuk melalui Instagram, Google, atau direct link.
+Hero langsung menjelaskan Rajodo Outdoor dan value utama rental.
+Pengunjung melihat kategori/kebutuhan outdoor yang tersedia.
+Pengunjung mengeksplorasi produk atau paket rental.
+Pengunjung melihat bukti visual: toko, perlengkapan, camping, dan aktivitas outdoor.
+Pengunjung memilih basecamp atau langsung menghubungi WhatsApp.
+Pengunjung mengisi/menyampaikan kebutuhan rental kepada admin.
+Admin melanjutkan proses cek stok, harga final, syarat, dan booking.
+5. Information Architecture Landing Page
+Urutan
+Section
+Tujuan
+Konten utama
+01
+Header / Navigation
+Navigasi cepat
+Logo, menu, CTA Booking
+02
+Hero
+First impression + conversion
+Headline, value proposition, CTA, visual adventure
+03
+Why Rajodo
+Trust & differentiation
+Rental outdoor, pilihan perlengkapan, support admin/basecamp
+04
+Explore by Need
+Discovery
+Camping, Hiking, Pendakian, Paket
+05
+Popular Rental / Packages
+Conversion
+Produk/paket populer, harga mulai bila tersedia, CTA
+06
+Adventure Gallery
+Social proof
+Foto perlengkapan, toko, camping, pelanggan/aktivitas
+07
+How Rental Works
+Reduce uncertainty
+Pilih kebutuhan → cek stok → booking → ambil/kembalikan
+08
+Basecamp
+Location + action
+BC 1 Pangebatan, BC 2 Sunyalangu, map/WhatsApp
+09
+FAQ / Rental Notes
+Answer objections
+Durasi, stok, booking, syarat, pengambilan
+10
+Final CTA
+Conversion
+Siap adventure? Chat/Booking
+11
+Footer
+Utility
+Kontak, sosial media, lokasi, legal/basic info
+
+6. Functional Requirements per Section
+6.1 Header / Navigation
+Logo Rajodo Outdoor harus menjadi anchor brand.
+Navigasi singkat dan tidak penuh: Home, Rental/Produk, Paket, Cara Sewa, Basecamp atau anchor setara.
+CTA utama harus terlihat jelas: Booking / Chat WhatsApp.
+Header dapat menjadi sticky setelah scroll.
+Mobile navigation harus tetap sederhana; CTA WhatsApp/Booking tetap mudah dijangkau.
+6.2 Hero Section
+Headline harus langsung menjelaskan kategori bisnis, bukan headline abstrak.
+Contoh arah copy: “Sewa Perlengkapan Outdoor untuk Petualanganmu” atau copy yang lebih kuat setelah validasi.
+Gunakan tagline brand “The Adventure Starts Here” sebagai supporting copy, bukan menggantikan value proposition.
+CTA utama: “Booking Sekarang” / “Cek Ketersediaan”.
+CTA sekunder: “Lihat Perlengkapan”.
+Visual hero wajib terasa outdoor: foto camping/hiking asli atau visual alam berkualitas tinggi dengan treatment brand Rajodo.
+Jangan menggunakan hero berupa kumpulan card, dashboard, gradient mesh, atau abstract AI blobs.
+6.3 Explore by Need
+Pengunjung sebaiknya memilih berdasarkan kebutuhan, bukan hanya nama barang.
+Contoh kategori: Camping, Hiking/Pendakian, Paket Rombongan, Perlengkapan Tenda, Cooking, Sleeping/Comfort.
+Setiap kategori memiliki visual yang konsisten dan CTA sederhana.
+Gunakan foto/ikon yang benar-benar relevan dengan aktivitas.
+6.4 Popular Rental / Packages
+Tampilkan produk/paket yang paling relevan/populer dari data existing.
+Jika harga dapat berubah, gunakan format “Mulai dari” dan arahkan ke konfirmasi admin.
+Jangan membuat harga atau spesifikasi baru yang belum dikonfirmasi.
+Setiap item memiliki CTA “Tanya Ketersediaan” atau “Booking via WhatsApp”.
+Jika stok real-time belum tersedia, jangan menampilkan indikator stok palsu.
+6.5 Gallery / Social Proof
+Prioritaskan foto asli Rajodo dari toko, perlengkapan, camping, lokasi, dan aktivitas.
+Gallery harus terasa seperti dokumentasi komunitas/adventure, bukan stock photo katalog.
+Gunakan caption singkat jika konteks foto membantu.
+Bila relevan, arahkan ke Instagram Rajodo.
+6.6 How Rental Works
+Tentukan perlengkapan atau paket.
+Hubungi admin untuk cek stok dan harga.
+Konfirmasi tanggal, durasi, dan kebutuhan.
+Selesaikan proses booking sesuai ketentuan.
+Ambil perlengkapan di basecamp yang dipilih.
+Gunakan perlengkapan untuk perjalanan.
+Kembalikan sesuai jadwal dan ketentuan.
+6.7 Basecamp
+BC 1 — Pangebatan.
+BC 2 — Sunyalangu.
+Masing-masing lokasi memiliki CTA Google Maps dan WhatsApp.
+Nomor kontak tidak boleh tertukar.
+Informasi alamat lengkap/operational hours harus diambil dari data final bisnis saat implementasi.
+7. Brand & Visual Direction
+Visual direction harus berangkat dari identitas Rajodo Outdoor yang terlihat pada logo dan materi Instagram: mountain adventure, camping, hiking, eksplorasi alam, dan komunitas outdoor. Desain harus modern namun tetap memiliki karakter; bukan template startup, bukan dashboard SaaS, dan bukan generic travel landing page.
+7.1 Visual DNA
+Mountain / alpine silhouette.
+Pine forest dan landscape.
+Camping tent dan outdoor equipment.
+Hiker/adventurer silhouette.
+Birds / open sky sebagai aksen jika relevan.
+Flat outdoor illustration dengan nuansa retro/adventure bila digunakan.
+Fotografi asli outdoor sebagai elemen utama ketika tersedia.
+7.2 Color System
+Role
+Arah warna
+Contoh HEX
+Catatan
+Primary
+Rajodo blue / deep teal-blue
+#0F6F8A / #126E88
+Basis identitas
+Primary Dark
+Deep mountain blue
+#0B3447
+Header, footer, overlay
+Accent
+Natural teal / sky blue
+#2B93AE
+CTA/interaction seperlunya
+Light
+Off-white
+#F7FAF8
+Background/content
+Dark
+Charcoal
+#172126
+Text/illustration
+Natural Accent
+Muted forest green
+#3F6257
+Aksen kecil, bukan warna utama
+HEX di atas adalah starting tokens, bukan larangan untuk melakukan fine-tuning setelah logo/aset final dianalisis.
+7.3 Typography
+Heading: gunakan sans-serif display yang bold/condensed dengan karakter outdoor/editorial.
+Body: gunakan sans-serif yang sangat readable dan neutral.
+Hierarchy harus jelas: hero headline > section title > card title > metadata > body.
+Hindari terlalu banyak font. Maksimal 2 family.
+Jangan menggunakan font novelty pada body text.
+7.4 Shape & Composition
+Gunakan bentuk yang terinspirasi badge/signage outdoor secara subtil.
+Radius komponen boleh moderat, tetapi jangan membuat seluruh halaman menjadi kumpulan pill/card.
+Gunakan whitespace yang cukup.
+Komposisi boleh asimetris untuk memberi rasa editorial/adventure.
+Gunakan garis, frame, contour/topographic pattern, atau mountain silhouette sebagai dekorasi bila membantu hierarchy.
+Dekorasi tidak boleh mengganggu informasi dan CTA.
+8. Anti-AI-Slop Design Rules — WAJIB
+Jangan menggunakan gradient ungu-biru, neon glow, glassmorphism, atau aurora gradient yang tidak berasal dari brand.
+Jangan memenuhi setiap section dengan floating cards.
+Jangan menggunakan blob abstrak sebagai dekorasi utama.
+Jangan memakai 3D render generik dari tenda, gunung, atau backpack jika foto/aset nyata tersedia.
+Jangan menggunakan stock photo yang terlihat terlalu staged jika tersedia dokumentasi Rajodo.
+Jangan membuat semua elemen berbentuk pill.
+Jangan menggunakan icon berlebihan hanya untuk mengisi ruang kosong.
+Jangan membuat UI seperti SaaS dashboard.
+Jangan menggunakan dark mode hanya karena terlihat modern; dark/light harus ditentukan berdasarkan kebutuhan visual brand.
+Jangan membuat setiap section memiliki background berbeda tanpa alasan.
+Jangan menggunakan animasi berlebihan, parallax berat, cursor effect, atau scroll gimmick.
+Jangan membuat typography terlalu dekoratif hingga sulit dibaca.
+Jangan mengorbankan informasi rental demi estetika.
+Jika sebuah dekorasi tidak memperkuat brand, hierarchy, atau usability, hapus.
+9. Photography & Asset Rules
+Prioritas 1: aset foto asli Rajodo.
+Prioritas 2: foto outdoor yang terasa natural dan sesuai konteks lokal.
+Prioritas 3: ilustrasi brand-style jika kebutuhan visual tidak dapat dipenuhi fotografi.
+Foto harus memiliki focal point yang jelas.
+Treatment warna boleh memakai overlay Rajodo blue, tetapi jangan sampai foto kehilangan karakter alam.
+Hindari excessive HDR, oversaturation, fake cinematic grading, dan AI-looking landscape.
+Produk rental harus difoto dengan kondisi yang jelas agar calon penyewa dapat memahami barang.
+10. Responsive & Accessibility Requirements
+Desktop, tablet, dan mobile harus dipikirkan sejak awal, bukan sekadar mengecilkan desktop.
+Mobile first untuk CTA booking dan WhatsApp.
+Touch target minimal sekitar 44px.
+Kontras teks harus memadai.
+Jangan menaruh informasi penting hanya melalui hover.
+Gallery dan product cards harus tetap mudah dipahami pada layar kecil.
+Form booking harus nyaman di mobile.
+Gunakan semantic HTML dan heading hierarchy yang benar.
+Optimalkan gambar agar landing page tetap cepat.
+11. Functional Requirements
+CTA WhatsApp harus membuka percakapan dengan nomor basecamp yang sesuai.
+Pengunjung dapat memilih BC 1 atau BC 2 saat relevan.
+Link Google Maps harus tersedia untuk lokasi yang sudah tervalidasi.
+Katalog/paket dapat menggunakan anchor, modal, dedicated page, atau flow lain sesuai implementasi.
+Instagram link harus tersedia.
+Jika booking form digunakan, hasil akhirnya harus tetap dapat diteruskan ke WhatsApp/admin.
+Website tidak boleh mengklaim availability real-time jika backend belum mendukung.
+Harga yang dapat berubah harus memiliki mekanisme konfirmasi.
+12. Contact Data
+Basecamp
+WhatsApp
+Use
+BC 1 — Pangebatan
+0882-3386-3914
+Inquiry, stock & booking
+BC 2 — Sunyalangu
+0882-0037-74015
+Inquiry, stock & booking
+Catatan: gunakan nomor dalam format +62 pada link WhatsApp bila dibutuhkan. Nomor sumber: 6288233863914 dan 62882003774015.
+13. Brand Social
+Instagram: @rajodo_outdoor_sewaalatcamping
+Facebook tersedia pada identitas Instagram/brand asset dan dapat ditambahkan setelah URL final diverifikasi.
+Gunakan sosial media sebagai bukti aktivitas brand, bukan sekadar footer link.
+14. Content Guidelines
+Tone of voice: friendly, confident, practical, adventurous.
+Bahasa utama: Bahasa Indonesia.
+Gunakan istilah outdoor yang familiar bagi target pengguna.
+Copy harus singkat dan actionable.
+Hindari copy terlalu korporat seperti “solusi end-to-end untuk lifestyle ecosystem”.
+Hindari klaim yang tidak ada buktinya.
+Harga, stok, alamat, jam operasional, dan ketentuan rental harus berasal dari data bisnis final.
+15. SEO & Discoverability
+Target topical intent: sewa alat camping Purwokerto, sewa alat hiking Purwokerto, rental alat outdoor Banyumas, dan variasi relevan.
+Gunakan satu H1 yang jelas.
+Setiap section memiliki heading semantik.
+Optimalkan title/meta description setelah copy final.
+Setiap gambar memiliki alt text deskriptif.
+Jangan keyword stuffing.
+16. Non-Functional Requirements
+Area
+Requirement
+Acceptance direction
+Performance
+Fast loading
+Hero image optimized; lazy-load gallery; avoid unnecessary heavy libraries
+Responsive
+Mobile/desktop parity
+No broken layout at common widths
+Accessibility
+Readable and usable
+Contrast, keyboard navigation, semantic structure
+Maintainability
+Easy content update
+Products/packages/gallery should be modular
+Reliability
+CTA integrity
+WhatsApp and map links tested
+SEO
+Indexable landing page
+SSR/static-friendly structure where applicable
+Security
+Safe external actions
+No exposed secrets/API keys in frontend
+17. Acceptance Criteria
+Landing page terasa jelas sebagai Rajodo Outdoor dalam 3–5 detik pertama.
+Visual menggunakan DNA logo: blue outdoor palette, mountain/adventure character, dan typography yang sesuai.
+Pengunjung dapat memahami bahwa Rajodo adalah penyewaan perlengkapan outdoor di area Purwokerto/Banyumas.
+Pengunjung dapat menemukan jalur menuju produk/paket rental tanpa kebingungan.
+CTA WhatsApp terlihat jelas dan berfungsi.
+Dua basecamp dapat dibedakan dengan jelas.
+Tidak ada informasi bisnis yang dibuat-buat.
+Tidak ada elemen visual yang terasa seperti template AI generik.
+Website responsif dan nyaman digunakan pada mobile.
+Aset foto asli Rajodo menjadi prioritas visual ketika tersedia.
+Website lama tidak dijadikan template layout.
+18. Design Deliverables
+Information architecture final.
+Desktop landing page.
+Mobile landing page.
+Reusable design tokens: color, typography, spacing, radius, buttons.
+Component states: default, hover, active, disabled, loading bila diperlukan.
+Asset direction / photography treatment.
+Responsive behavior specification.
+Developer-ready component notes.
+Final copy/content mapping.
+19. AI Agent Implementation Instructions
+Instruksi prioritas untuk AI AgentJika ada konflik antara estetika dan kejelasan informasi rental, prioritaskan kejelasan. Jika ada konflik antara trend UI dan identitas Rajodo, prioritaskan identitas Rajodo. Jangan menambahkan fitur hanya karena terlihat keren. Semua elemen harus memiliki alasan bisnis atau UX.
+
+Pelajari logo dan aset Instagram sebelum menentukan visual.
+Gunakan informasi dari PRD ini sebagai source of truth.
+Jangan menyalin layout website lama.
+Bangun visual hierarchy terlebih dahulu, baru dekorasi.
+Gunakan fotografi asli dan brand illustration secara terukur.
+Pastikan CTA booking selalu mudah ditemukan.
+Validasi setiap nomor kontak, harga, alamat, dan jam operasional sebelum dipublikasikan.
+Hindari pola visual AI-slop yang tercantum pada Section 8.
+Pastikan mobile experience tidak menjadi versi mini dari desktop.
+Sebelum final, lakukan audit terhadap brand consistency, readability, conversion path, dan performance.
+20. Data yang Masih Perlu Dikunci Sebelum Development
+Alamat lengkap BC 1 Pangebatan.
+Alamat lengkap BC 2 Sunyalangu.
+Jam operasional terbaru masing-masing basecamp.
+Daftar produk dan paket yang benar-benar aktif.
+Harga terbaru tiap produk/paket.
+Durasi sewa yang tersedia.
+Syarat rental/deposit/identitas.
+Aturan denda keterlambatan/kerusakan bila ada.
+Kebijakan pembayaran dan DP.
+Link Google Maps resmi tiap basecamp.
+Link sosial media resmi yang final.
+Apakah website akan memiliki backend katalog/stock atau hanya inquiry via WhatsApp.
+Apakah booking form perlu menyimpan data ke database atau cukup menghasilkan pesan WhatsApp.
+
+RAJODO OUTDOOR • THE ADVENTURE STARTS HERE
