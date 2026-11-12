@@ -20,24 +20,35 @@ document.addEventListener('DOMContentLoaded', () => {
   const mobileDrawer = document.querySelector('.mobile-nav-drawer');
   const mobileClose = document.querySelector('.mobile-nav-close');
   const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+  const drawerBackdrop = document.getElementById('drawerBackdrop');
 
-  if (mobileToggle && mobileDrawer) {
-    mobileToggle.addEventListener('click', () => {
-      mobileDrawer.classList.add('active');
-    });
-
-    if (mobileClose) {
-      mobileClose.addEventListener('click', () => {
-        mobileDrawer.classList.remove('active');
-      });
-    }
-
-    mobileLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        mobileDrawer.classList.remove('active');
-      });
-    });
+  function openDrawer() {
+    if (mobileDrawer) mobileDrawer.classList.add('active');
+    if (drawerBackdrop) drawerBackdrop.classList.add('active');
+    document.body.style.overflow = 'hidden';
   }
+
+  function closeDrawer() {
+    if (mobileDrawer) mobileDrawer.classList.remove('active');
+    if (drawerBackdrop) drawerBackdrop.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  if (mobileToggle) {
+    mobileToggle.addEventListener('click', openDrawer);
+  }
+
+  if (mobileClose) {
+    mobileClose.addEventListener('click', closeDrawer);
+  }
+
+  if (drawerBackdrop) {
+    drawerBackdrop.addEventListener('click', closeDrawer);
+  }
+
+  mobileLinks.forEach(link => {
+    link.addEventListener('click', closeDrawer);
+  });
 
   // 3. Featured Rentals Catalog Filtering
   const filterBtns = document.querySelectorAll('.filter-btn');
@@ -94,6 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function openModal(itemName = '') {
     if (modalOverlay) {
       modalOverlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
       if (itemName && modalProductSelect) {
         for (let i = 0; i < modalProductSelect.options.length; i++) {
           if (modalProductSelect.options[i].value.toLowerCase().includes(itemName.toLowerCase())) {
@@ -108,6 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function closeModal() {
     if (modalOverlay) {
       modalOverlay.classList.remove('active');
+      document.body.style.overflow = '';
     }
   }
 
